@@ -5,7 +5,7 @@ server:
 spring:
   datasource:
    url: jdbc:oracle:thin:@localhost:1521/xe
-   username: scott
+   username: caredog
    password: tiger
    driver-class-name: oracle.jdbc.driver.OracleDriver
    
@@ -34,8 +34,8 @@ spring:
   mail:
     host: smtp.gmail.com
     port: 587
-    username: jinny2922@gmail.com
-    password: qboscxzugkxoixfa
+    username: 
+    password: 
     properties:
       mail:
         smtp:
