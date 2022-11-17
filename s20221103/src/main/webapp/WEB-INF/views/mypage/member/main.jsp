@@ -8,7 +8,9 @@
 <title>member</title>
 </head>
 <body>
+<%@ include file="/WEB-INF/views/include/sidebar.jsp" %>
 
+	
 
 
 <%@ include file="/WEB-INF/views/include/footer.jsp" %>

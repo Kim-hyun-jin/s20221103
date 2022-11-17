@@ -5,12 +5,14 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>admin</title>
+<title>Insert title here</title>
 </head>
 <body>
-
-
 <%@ include file="/WEB-INF/views/include/sidebar.jsp" %>
+
+
+
+
 
 
 
