@@ -15,7 +15,7 @@ import lombok.extern.slf4j.Slf4j;
 @Controller
 @RequiredArgsConstructor
 @Slf4j
-public class HotelController {
+public class HotelJwController {
 	private final MyHotelService mhs;
 	
 	@GetMapping("/hotel/reservation/main2")
