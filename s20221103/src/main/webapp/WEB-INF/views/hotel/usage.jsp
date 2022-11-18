@@ -6,10 +6,16 @@
 <head>
 <meta charset="UTF-8">
 <title>usage</title>
+<style type="text/css">
+	.hotel_mainImg {
+	
+	}
+</style>
 </head>
 <body>
 <p>호텔이용안내</p>
-
+	<div class="hotel_mainImg">
+	</div>
 
 
 
