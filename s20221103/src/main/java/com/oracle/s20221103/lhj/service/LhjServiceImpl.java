@@ -23,6 +23,14 @@ public class LhjServiceImpl implements LhjService {
 		System.out.println("LhjServiceImpl myDogList myDogList.size()->" +myDogList.size());
 		return myDogList;
 	}
+
+	@Override
+	public Dog mydogInfo(Long dogNo) {
+		System.out.println("LhjServiceImpl mydogInfo Start...");
+		Dog dog = null;
+		dog = lhjDao.mydogInfo(dogNo);
+		return dog;
+	}
 	
 
 }

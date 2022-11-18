@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 import com.oracle.s20221103.dto.Member;
-import com.oracle.s20221103.dto.MemberDog;
+import com.oracle.s20221103.dto.join.MemberDog;
 import com.oracle.s20221103.pej.service.PejService;
 
 import lombok.RequiredArgsConstructor;
