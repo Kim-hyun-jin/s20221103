@@ -1,5 +1,11 @@
 package com.oracle.s20221103.dto;
 
-public class Room {
+import lombok.Data;
 
+@Data
+public class Room {
+	private String roomType;
+	private int rommPrice;
+	private String roomFunction;
+	private int limitSize;
 }
