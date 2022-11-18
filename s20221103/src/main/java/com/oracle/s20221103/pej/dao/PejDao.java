@@ -10,6 +10,13 @@ public interface PejDao {
 
 	List<MemberDog> selMemberDogList();
 
+	List<MemberDog> detailMemberDog(int id);
+
+	
+
+
+
+
 
 
 }

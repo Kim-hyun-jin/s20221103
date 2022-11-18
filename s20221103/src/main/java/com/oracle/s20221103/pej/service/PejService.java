@@ -10,6 +10,9 @@ public interface PejService {
 
 	List<MemberDog> selMemberDogList();
 
+	List<MemberDog> detailMemberDog(int id);
+	
+
 
 
 }
