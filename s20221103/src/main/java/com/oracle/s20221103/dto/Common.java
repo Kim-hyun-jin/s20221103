@@ -1,8 +1,8 @@
 package com.oracle.s20221103.dto;
 
-import lombok.Getter;
+import lombok.Data;
 
-@Getter
+@Data
 public class Common {
 
 	private int bcd;
