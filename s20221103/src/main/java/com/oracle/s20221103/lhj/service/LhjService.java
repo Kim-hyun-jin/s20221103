@@ -5,7 +5,7 @@ import java.util.List;
 import com.oracle.s20221103.dto.Dog;
 
 public interface LhjService {
-
-	List<Dog> myDogList(Dog dog);
+	List<Dog> 	myDogList(Dog dog);
+	Dog         mydogInfo(Long dog_no);
 
 }

@@ -16,22 +16,23 @@
 <title>Insert title here</title>
 </head>
 <body>
-
   <div id="mydogList">
-  <p>나의 강아지 페이지확인</p>
-  <table border="1">
-  	<tr><th >번호</th><th>반려견명</th></tr>
-  	<c:forEach var="dog" items="${myDogList}">
-  	<tr><td>${dog.DOG_NO}</td>
-  	<td><a href="/mypage/member/myDogInfo?dog_no=${dog.DOG_NO}">${dog.DOG_NAME}</a></td></tr>
-  	</c:forEach>
-  </table>
+	<h1>나의반려견</h1>
+	<table border="1">
+	<tr><th>반려견명</th><td>${dog.DOG_NAME }</td></tr>
+	<tr><th>견종명</th><td>${dog.DOG_KIND }</td></tr>
+	<tr><th>성별</th><td>${dog.DOG_GENDER }</td></tr>
+	<tr><th>나이</th><td>${dog.DOG_AGE }</td></tr>
+	<tr><th>몸무게</th><td>${dog.DOG_WEIGHT }</td></tr>
+	<tr><th>중성화여부</th><td>${dog.DE_SEXIBNG }</td></tr>
+	<tr><th>유치원등록일</th><td>${dog.SC_STARTDATE }~${dog.SC_ENDDATE }</td></tr>
+	
+	
+	
+	</table>
+
   </div>
  
-
-
-
-
 
 <%@ include file="/WEB-INF/views/include/footer.jsp" %>
 </body>
