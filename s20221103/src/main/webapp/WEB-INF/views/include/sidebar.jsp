@@ -34,7 +34,7 @@
       </button>
       <div class="collapse" id="dashboard-collapse" style="">
         <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
-          <li><a href="/mypage/member/myDogList" class="link-dark d-inline-flex text-decoration-none rounded">반려견 정보</a></li>
+          <li><a href="#" class="link-dark d-inline-flex text-decoration-none rounded">반려견 정보</a></li>
           <li><a href="#" class="link-dark d-inline-flex text-decoration-none rounded">반려견 일지</a></li>
         </ul>
       </div>
@@ -45,7 +45,7 @@
       </button>
       <div class="collapse" id="orders-collapse" style="">
         <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
-          <li><a href="#" class="link-dark d-inline-flex text-decoration-none rounded">회원 관리</a></li>
+          <li><a href="/mypage/admin/memberList" class="link-dark d-inline-flex text-decoration-none rounded">회원 관리</a></li>
           <li><a href="#" class="link-dark d-inline-flex text-decoration-none rounded">호텔 예약 관리</a></li>
           <li><a href="#" class="link-dark d-inline-flex text-decoration-none rounded">결제 관리</a></li>
         </ul>
