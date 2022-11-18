@@ -9,80 +9,91 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Jua&display=swap" rel="stylesheet">
-<style type="text/css">
-.container {
-	width: 100%;
-}
-
-.hotel_mainImg {
-	width: 100%;
-	background: url("/img/hotel/hotel_main.PNG");
-	background-repeat: no-repeat;
-	height: 150px;
-}
-	
-.hotel_title {
-    font-size: 50px;
-   	color: #222;
-   	letter-spacing: 0;
-    text-align: center;
-    line-height: 1em;
-    margin: 35px 0 20px 0;
-    font-family: 'Jua', sans-serif;
-}
-
-ul {
-	list-style: none;
-	display: flex;
-}
-
-.establishment {
-	margin-right: 30px;
-}
-
-
-
-dl {
-	position: relative;
-	text-align: center;
-}
-</style>
+<link href="/css/hotel/hotel.css" rel="styleSheet" type="text/css">
 </head>
 <body class="d-flex flex-column min-vh-100">
-	<div class="container">  <!--- container ------------------------------------------------>
+	<div class="container">
 		<div class="hotel_mainImg">
-			사진다시 고르기
 		</div>
 		
 		<div class="hotel_title">
 			반려동물 호텔
 		</div>
-		<div class="hotel_establishment">
-			<ul>
-				<li class="establishment">
-					<img alt="" src="/img/hotel/outside.jpg">
-					<dl>
-						<dt>넓은 야외공간</dt>
-					</dl>
-				</li>
-				<li class="establishment">
-					<img alt="" src="/img/hotel/public.jpg">
-					<dl>
-						<dt>다양한 공공시설</dt>
-					</dl>
-				</li>
-				<li class="establishment">
-					<img alt="" src="/img/hotel/care.jpg" style="height: 200px; width: 288px;">
-					<dl>
-						<dt>데일리 케어</dt>
-					</dl>
-				</li>
-			</ul>
+		
+		
+		<div class="hotel_use_ment">
+			<div class="title">"5성급 프리미엄 호텔 케어독!"</div>
+			<div class="ment">아이들이 좋아할 수 밖에 없는 환경!</div>
 		</div>
-		<div class="hotel_room">
-			방사진들 ~
+		
+		<div class="card-group">
+			<div class="card">
+				<img src="/img/hotel/outside.jpg" class="card-img-top" alt="...">
+				<div class="card-body">
+					<h5 class="card-title">넓은 야외공간</h5>
+				</div>
+			</div>
+			<div class="card">
+				<img src="/img/hotel/public.jpg"" class="card-img-top" alt="...">
+					<div class="card-body">
+						<h5 class="card-title">다양한 공공시설</h5>
+					</div>
+			</div>
+			<div class="card">
+				<img src="/img/hotel/care.jpg" class="card-img-top" alt="...">
+				<div class="card-body">
+					<h5 class="card-title">데일리 케어</h5>
+				</div>
+			</div>
 		</div>
-	</div> <!--- container ----------------------------------------------------------------->
+		
+		
+		<hr>
+		
+		<div class="hotel_use_ment">
+			<div class="title">"편안~한 프라이빗 공간!"</div>
+			<div class="ment">하루종일 놀다 들어온 아이들의 편안한 휴식처</div>
+		</div>
+		
+		<div class="row row-cols-1 row-cols-md-3 g-4">
+			<div class="col">
+				<div class="card h-100">
+				<img src="/img/hotel/standardroom.jpg" class="card-img-top" alt="...">
+					<div class="card-body">
+					<h5 class="card-title">스탠다드 룸</h5>
+					<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+					</div>
+					<div class="card-footer">
+					<small class="text-muted">Last updated 3 mins ago</small>
+					</div>
+				</div>
+			</div>
+			<div class="col">
+				<div class="card h-100">
+				<img src="/img/hotel/premiumroom.jpg" class="card-img-top" alt="...">
+					<div class="card-body">
+					<h5 class="card-title">프리미엄 룸</h5>
+					<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+					</div>
+					<div class="card-footer">
+					<small class="text-muted">Last updated 3 mins ago</small>
+					</div>
+				</div>
+			</div>
+			<div class="col">
+				<div class="card h-100">
+				<img src="/img/hotel/sweetyroom.jpg" class="card-img-top" alt="...">
+					<div class="card-body">
+					<h5 class="card-title">스위티 룸</h5>
+					<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+					</div>
+					<div class="card-footer">
+					<small class="text-muted">Last updated 3 mins ago</small>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div> <!-- container ---------------------------------------------------------------------------->
 <%@ include file="/WEB-INF/views/include/footer.jsp" %>
 </body>
 </html>
