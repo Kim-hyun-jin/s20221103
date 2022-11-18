@@ -6,7 +6,7 @@ import org.apache.ibatis.session.SqlSession;
 import org.springframework.stereotype.Repository;
 
 import com.oracle.s20221103.dto.Member;
-import com.oracle.s20221103.dto.MemberDog;
+import com.oracle.s20221103.dto.join.MemberDog;
 
 import lombok.RequiredArgsConstructor;
 

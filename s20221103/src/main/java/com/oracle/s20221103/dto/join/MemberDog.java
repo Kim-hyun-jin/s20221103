@@ -1,4 +1,4 @@
-package com.oracle.s20221103.dto;
+package com.oracle.s20221103.dto.join;
 
 import lombok.Data;
 
