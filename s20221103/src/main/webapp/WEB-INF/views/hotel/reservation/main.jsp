@@ -12,9 +12,9 @@
 	<h1>호텔 예약하기</h1>
 	<div id="container" class="container">
 		<div id="content" class="content">
-			<form action="">
-				<c:forEach var="room" items="roomList">
-				 <input type="radio" name="roomType" value="${room.roomType }">${romm.roomType }
+ 			<form action="">
+				<c:forEach var="room" items="${roomList }">
+				 <input type="radio" name="roomType" value="${room.roomType }">${room.roomType }
 				</c:forEach>
 			</form>
 		</div>

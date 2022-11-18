@@ -5,7 +5,7 @@ import lombok.Data;
 @Data
 public class Room {
 	private String roomType;
-	private int rommPrice;
+	private int roomPrice;
 	private String roomFunction;
 	private int limitSize;
 }

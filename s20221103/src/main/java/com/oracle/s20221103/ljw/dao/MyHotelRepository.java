@@ -20,7 +20,7 @@ public class MyHotelRepository implements HotelRepository {
 	public List<Room> findRoomList() {
 		List<Room> result = null;
 		try {
-			result = session.selectList("RoomList");
+			result = session.selectList("roomList");
 		} catch (Exception e) {
 			log.info("findRoomList() e.getMessage...==>{}",e.getMessage());
 		}
