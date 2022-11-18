@@ -13,10 +13,9 @@
 	<div id="container" class="container">
 		<div id="content" class="content">
 			<form action="">
-				<input type="radio" name="1">123
-				<input type="radio"name="1">123
-				<input type="radio"name="1">123
-					
+				<c:forEach var="room" items="roomList">
+				 <input type="radio" name="roomType" value="${room.roomType }">${romm.roomType }
+				</c:forEach>
 			</form>
 		</div>
 	</div>
