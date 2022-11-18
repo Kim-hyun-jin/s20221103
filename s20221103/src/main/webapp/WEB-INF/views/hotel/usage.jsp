@@ -10,37 +10,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Jua&display=swap"
 	rel="stylesheet">
-<style type="text/css">
-.container {
-	width: 100%;
-}
-
-.hotel_mainImg {
-	width: 100%;
-	background: url("/img/hotel/hotel_usage.jpg");
-	background-repeat: no-repeat;
-	height: 230px;
-}
-
-.hotel_title {
-	font-size: 50px;
-	color: #222;
-	letter-spacing: 0;
-	text-align: center;
-	line-height: 1em;
-	margin: 35px 0 20px 0;
-	font-family: 'Jua', sans-serif;
-}
-
-.hotel_use_ment {
-	text-align: center;
-}
-
-.hotel_use_ment .title {
-	font-size: 30px;
-	margin-bottom: 10px;
-}
-</style>
+<link href="/css/hotel/hotel.css" rel="styleSheet" type="text/css">
 </head>
 <body class="d-flex flex-column min-vh-100">
 	<ul class="nav nav-pills" style="position: fixed; top: 50px;">
