@@ -22,8 +22,8 @@
   <table border="1">
   	<tr><th >번호</th><th>반려견명</th></tr>
   	<c:forEach var="dog" items="${myDogList}">
-  	<tr><td>${dog.DOG_NO}</td>
-  	<td><a href="/mypage/member/myDogInfo?dog_no=${dog.DOG_NO}">${dog.DOG_NAME}</a></td></tr>
+  	<tr><td>${dog.dogNo}</td>
+  	<td><a href="/mypage/member/myDogInfo?dog_no=${dog.dogNo}">${dog.dogName}</a></td></tr>
   	</c:forEach>
   </table>
   </div>

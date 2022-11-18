@@ -19,13 +19,13 @@
   <div id="mydogList">
 	<h1>나의반려견</h1>
 	<table border="1">
-	<tr><th>반려견명</th><td>${dog.DOG_NAME }</td></tr>
-	<tr><th>견종명</th><td>${dog.DOG_KIND }</td></tr>
-	<tr><th>성별</th><td>${dog.DOG_GENDER }</td></tr>
-	<tr><th>나이</th><td>${dog.DOG_AGE }</td></tr>
-	<tr><th>몸무게</th><td>${dog.DOG_WEIGHT }</td></tr>
-	<tr><th>중성화여부</th><td>${dog.DE_SEXIBNG }</td></tr>
-	<tr><th>유치원등록일</th><td>${dog.SC_STARTDATE }~${dog.SC_ENDDATE }</td></tr>
+	<tr><th>반려견명</th><td>${dog.dogName }</td></tr>
+	<tr><th>견종명</th><td>${dog.dogKind }</td></tr>
+	<tr><th>성별</th><td>${dog.dogGender }</td></tr>
+	<tr><th>나이</th><td>${dog.dogAge }</td></tr>
+	<tr><th>몸무게</th><td>${dog.dogWeight }</td></tr>
+	<tr><th>중성화여부</th><td>${dog.deSexibng }</td></tr>
+	<tr><th>유치원등록일</th><td>${dog.scStartdate }~${dog.scEnddate }</td></tr>
 	
 	
 	

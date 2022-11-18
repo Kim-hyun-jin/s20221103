@@ -31,12 +31,11 @@ public class LhjDaoImpl implements LhjDao {
 	}
 
 	@Override
-	public Dog mydogInfo(Long dog_no) {
+	public Dog mydogInfo(Long dogNo) {
 		System.out.println("LhjDaoImpl mydogInfo start..");
 		Dog dog = new Dog();
 		try {
-			dog = session.selectOne("mydogInfo", dog_no);
-			System.out.println("LhjDaoImpl mydogInfo getDOG_NAME->"+dog.getDOG_NAME());
+			dog = session.selectOne("mydogInfo", dogNo);
 		} catch (Exception e) {
 			System.out.println("LhjDaoImpl mydogInfo Exception->"+e.getMessage());
 		}

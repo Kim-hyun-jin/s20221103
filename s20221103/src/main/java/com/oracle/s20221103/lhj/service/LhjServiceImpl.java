@@ -25,10 +25,10 @@ public class LhjServiceImpl implements LhjService {
 	}
 
 	@Override
-	public Dog mydogInfo(Long dog_no) {
+	public Dog mydogInfo(Long dogNo) {
 		System.out.println("LhjServiceImpl mydogInfo Start...");
 		Dog dog = null;
-		dog = lhjDao.mydogInfo(dog_no);
+		dog = lhjDao.mydogInfo(dogNo);
 		return dog;
 	}
 	
