@@ -3,12 +3,19 @@ package com.oracle.s20221103.pej.dao;
 import java.util.List;
 
 import com.oracle.s20221103.dto.Member;
-import com.oracle.s20221103.dto.MemberDog;
+import com.oracle.s20221103.dto.join.MemberDog;
 
 public interface PejDao {
 
 
 	List<MemberDog> selMemberDogList();
+
+	List<MemberDog> detailMemberDog(int id);
+
+	
+
+
+
 
 
 

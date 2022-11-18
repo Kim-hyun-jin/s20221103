@@ -5,7 +5,7 @@ import java.util.List;
 import org.springframework.stereotype.Service;
 
 import com.oracle.s20221103.dto.Member;
-import com.oracle.s20221103.dto.MemberDog;
+import com.oracle.s20221103.dto.join.MemberDog;
 import com.oracle.s20221103.pej.dao.PejDao;
 
 import lombok.RequiredArgsConstructor;
@@ -23,5 +23,19 @@ public class PejServiceImpl implements PejService {
 		System.out.println("PejServiceImpl selMemberList selMemberList.size()->"+selMemberDogList.size());
 		return selMemberDogList;
 	}
+
+	@Override
+	public List<MemberDog> detailMemberDog(int id) {
+		System.out.println("PejServiceImpl detailMemberDog Start");
+		List<MemberDog> detailMemberDog = null;
+		detailMemberDog = pd.detailMemberDog(id);
+		return detailMemberDog;
+	
+	}
+
+
+		
+
+	
 
 }
