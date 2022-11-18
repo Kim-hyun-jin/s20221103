@@ -9,7 +9,9 @@
 </head>
 <body>
 <p>예약페이지 메인</p>
-
+	<form action="/hotel/reservation/info">
+		<input type="submit" value="다음으로">
+	</form>
 
 
 
