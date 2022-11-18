@@ -5,7 +5,7 @@ import java.util.List;
 import org.springframework.stereotype.Service;
 
 import com.oracle.s20221103.dto.Member;
-import com.oracle.s20221103.dto.join.MemberDog;
+import com.oracle.s20221103.dto.MemberDog;
 import com.oracle.s20221103.pej.dao.PejDao;
 
 import lombok.RequiredArgsConstructor;

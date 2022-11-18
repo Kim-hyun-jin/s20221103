@@ -14,12 +14,12 @@
 	<table border="1">
 		<tr><th>이름</th><th>연락처</th><th>주소</th><th>반려견명</th><th>성별</th><th>나이</th>
 			<th>견종명</th><th>회원등급</th><th>서비스만료일</th><th>메모(특이사항)</th></tr>
-			<input type="hidden" value="${selMemberDogList.id}">
+			<%-- <input type="hidden" value="${selMemberDogList.id}"> --%>
 		<c:forEach var="memDog" items="${selMemberDogList}">
 			<input type="hidden" value="${memDog.id}">
-			<tr><td>${memDog.member_name }</td><td>${memDog.member_call }</td><td>${memDog.member_address }</td><td>${memDog.dog_name }</td>
-				<td>${memDog.dog_gender }</td><td>${memDog.dog_age }</td><td>${memDog.dog_kind }</td>
-				<td>${memDog.role }</td><td>${memDog.sc_enddate }</td><td>${memDog.dog_memo }</td></tr>
+			<tr><td>${memDog.memberName }</td><td>${memDog.memberCall }</td><td>${memDog.memberAddress }</td><td>${memDog.dogName }</td>
+				<td>${memDog.dogGender }</td><td>${memDog.dogAge }</td><td>${memDog.dogKind }</td>
+				<td>${memDog.role }</td><td>${memDog.scEnddate }</td><td>${memDog.dogMemo }</td></tr>
 		</c:forEach>
 	</table>
 

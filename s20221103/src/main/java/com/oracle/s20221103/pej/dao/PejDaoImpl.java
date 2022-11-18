@@ -35,7 +35,7 @@ public class PejDaoImpl implements PejDao {
 			detailMemberDog = session.selectList("detailMemberDog", id);
 			System.out.println("PejDaoImpl detailMemberDog getMember_name->"+detailMemberDog.get(2).getId());
 		} catch (Exception e) {
-			System.out.println("PejDaoImpl detailMemberDog memberDog.getid->"+detailMemberDog.get(2).getMember_name());
+			System.out.println("PejDaoImpl detailMemberDog memberDog.getid->"+detailMemberDog.get(2).getMemberName());
 			System.out.println("PejDaoImpl detailMemberDog Exception ->"+e.getMessage());
 		}
 		return detailMemberDog;

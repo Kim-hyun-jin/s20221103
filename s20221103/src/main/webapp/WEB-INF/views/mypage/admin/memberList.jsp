@@ -15,9 +15,9 @@
 		<tr><th>회원번호</th><th>이름</th><th>회원아이디</th><th>주소</th><th>이메일</th><th>회원등급</th></tr>
 		<c:forEach var="member" items="${selMemberDogList}">
 			<tr><td>${member.id }</td>
-				<td><a href="detailMemberDog?id=${member.id}">${member.member_name }</a></td>
-				<td>${member.username }</td><td>${member.member_address }</td>
-				<td>${member.member_email }</td><td>${member.role }</td></tr>
+				<td><a href="detailMemberDog?id=${member.id}">${member.memberName }</a></td>
+				<td>${member.username }</td><td>${member.memberAddress }</td>
+				<td>${member.memberEmail }</td><td>${member.role }</td></tr>
 		</c:forEach>
 	</table>
 
