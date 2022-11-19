@@ -13,7 +13,7 @@ import lombok.RequiredArgsConstructor;
 @RequiredArgsConstructor
 public class LhjServiceImpl implements LhjService {
 	
-	private final LhjDao lhjDao;
+	private final LhjDao lhjDao = null;
 	
 	@Override
 	public List<Dog> myDogList(Dog dog) {

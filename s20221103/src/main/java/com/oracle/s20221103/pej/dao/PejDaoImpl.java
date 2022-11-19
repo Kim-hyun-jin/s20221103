@@ -13,7 +13,7 @@ import lombok.RequiredArgsConstructor;
 @Repository
 @RequiredArgsConstructor
 public class PejDaoImpl implements PejDao {
-	private final SqlSession session;
+	private final SqlSession session = null;
 
 
 	@Override

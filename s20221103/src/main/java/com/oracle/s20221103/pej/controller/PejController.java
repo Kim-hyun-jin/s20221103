@@ -17,7 +17,7 @@ import lombok.extern.slf4j.Slf4j;
 @Slf4j
 @RequiredArgsConstructor
 public class PejController {
-	private final PejService ps;
+	private final PejService ps = null;
 	
 	@RequestMapping(value = "mypage/member/myInfo")
 	public String myInfo() {

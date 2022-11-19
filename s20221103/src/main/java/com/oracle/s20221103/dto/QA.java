@@ -5,7 +5,7 @@ import lombok.Data;
 @Data
 public class QA {
 
-	private Integer questionNo;
+	private int questionNo;
 	private String memberId;
 	private String title;
 	private String content;

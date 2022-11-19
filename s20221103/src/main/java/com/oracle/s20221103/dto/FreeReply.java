@@ -6,7 +6,7 @@ import lombok.Data;
 public class FreeReply {
 
 	private String freeboardNo;
-	private Integer replyNo;
+	private int replyNo;
 	private String memberId;
 	private String replyContent;
 	private String replyRegdate;

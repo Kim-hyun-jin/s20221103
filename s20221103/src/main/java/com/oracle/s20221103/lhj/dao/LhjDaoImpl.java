@@ -14,7 +14,7 @@ import lombok.RequiredArgsConstructor;
 @RequiredArgsConstructor
 public class LhjDaoImpl implements LhjDao {
 	
-	private final SqlSession session;
+	private final SqlSession session = null;
 
 	@Override
 	public List<Dog> myDogList(Dog dog) {

@@ -11,23 +11,26 @@
 
 <div id="main">
 	<div class="container">
-		<form action="write" method="post">
+		<form action="/customerService/cusNotice/write" method="post">
 			
 				<div class="mb-3">
-				  <label for="exampleFormControlInput1" class="form-label">Email address</label>
-				  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+				  <label for="exampleFormControlInput1" class="form-label">제목</label>
+				  <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="제목을 입력하세요">
 				</div>
 				<div class="mb-3">
-				  <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+				  <label for="exampleFormControlTextarea1" class="form-label">내용</label>
 				  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
 				</div>
 				
 				<div class="mb-3">
-				  <label for="formFileMultiple" class="form-label">Multiple files input example</label>
+				  <label for="formFileMultiple" class="form-label">첨부파일</label>
 				  <input class="form-control" type="file" id="formFileMultiple" multiple>
 				</div>
 				
-				<button type="submit" class="btn btn-outline-secondary"></button>
+				<!-- 연결만, 나중에 redirect처리 -->
+				
+				<button type="submit" class="btn btn-outline-secondary">완료</button>
+				
 			
 		</form>
 	</div>

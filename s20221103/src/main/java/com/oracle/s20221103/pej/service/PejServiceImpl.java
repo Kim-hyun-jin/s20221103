@@ -13,7 +13,7 @@ import lombok.RequiredArgsConstructor;
 @Service
 @RequiredArgsConstructor
 public class PejServiceImpl implements PejService {
-	private final PejDao pd;
+	private final PejDao pd = null;
 
 	@Override
 	public List<MemberDog> selMemberDogList() {

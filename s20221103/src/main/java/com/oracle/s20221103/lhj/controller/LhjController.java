@@ -17,7 +17,7 @@ import lombok.extern.slf4j.Slf4j;
 @Slf4j
 public class LhjController {
 	
-	private final LhjService lhjs;
+	private final LhjService lhjs = null;
 	
 	
 	@RequestMapping(value = "mypage/member/myDogList")

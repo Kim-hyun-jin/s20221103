@@ -10,7 +10,7 @@ import lombok.RequiredArgsConstructor;
 @RequiredArgsConstructor
 public class LhjRepositoryImpl implements LhjRepository {
 	
-	private final EntityManager em;
+	private final EntityManager em = null;
 	
 
 }

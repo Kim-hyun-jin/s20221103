@@ -6,11 +6,11 @@ import lombok.Data;
 @Data
 public class CusNotice {
 
-	private Integer cusNo;
+	private int cusNo;
 	private String memberId;
 	private String title;
 	private String content;
-	private String regdate; // 저장할 때 포맷터로 date
+	private String regdate; // ���옣�븷 �븣 �룷留룻꽣濡� date
 
 	
 }
