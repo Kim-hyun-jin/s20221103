@@ -12,12 +12,12 @@
 <%@ include file="/WEB-INF/views/include/sidebar.jsp" %>
 <h1>회원 관리</h1>
 	<table border="1">
-		<tr><th>보호자명</th><th>반려견명</th><th>강아지 성별</th><th>나이</th><th>견종명</th><th>회원등급</th><th>서비스만료일</th></tr>
-		<c:forEach var="memDog" items="${selMemberDogList}">
-			<tr><td>${memDog.memberName }</td><td>${memDog.memberName }</td>
-				<td>${memDog.memberName }</td><td>${memDog.memberName }</td>
-				<td>${memDog.memberName }</td><td>${memDog.memberName }</td>
-				<td>${memDog.memberName }</td></tr>
+		<tr><th>회원번호</th><th>이름</th><th>회원아이디</th><th>주소</th><th>이메일</th><th>회원등급</th></tr>
+		<c:forEach var="member" items="${selMemberDogList}">
+			<tr><td>${member.id }</td>
+				<td><a href="detailMemberDog?id=${member.id}">${member.memberName }</a></td>
+				<td>${member.username }</td><td>${member.memberAddress }</td>
+				<td>${member.memberEmail }</td><td>${member.role }</td></tr>
 		</c:forEach>
 	</table>
 

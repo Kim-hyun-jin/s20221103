@@ -23,6 +23,7 @@ spring:
         default_batch_fetch_size :500 
       show_sql:   true         # System.out 에 하이버네이트 실행 SQL
       format_sql: true
+    database-platform: org.hibernate.dialect.Oracle10gDialect
 
   #view resolver(under spring)
   mvc:
@@ -47,7 +48,7 @@ spring:
 mybatis:
   config-location: classpath:configuration/configuration.xml
   mapper-locations: classpath:mappers/**/*.xml
-       
+
 logging.level:
   org.hibernate.SQL: debug   # logger를 통해 하이버네이트 실행 SQL
       

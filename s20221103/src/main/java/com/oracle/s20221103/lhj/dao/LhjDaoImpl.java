@@ -23,10 +23,23 @@ public class LhjDaoImpl implements LhjDao {
 		try {
 			myDogList = session.selectList("hjMyDogList" , dog);
 			System.out.println("LhjDaoImpl myDogList myDogList.size()->"+myDogList.size());
+			
 		} catch (Exception e) {
 			System.out.println("LhjDaoImpl myDogList e.getMessage()->"+e.getMessage());
 		}
 		return myDogList;
+	}
+
+	@Override
+	public Dog mydogInfo(Long dogNo) {
+		System.out.println("LhjDaoImpl mydogInfo start..");
+		Dog dog = new Dog();
+		try {
+			dog = session.selectOne("mydogInfo", dogNo);
+		} catch (Exception e) {
+			System.out.println("LhjDaoImpl mydogInfo Exception->"+e.getMessage());
+		}
+		return dog;
 	}
 
 }

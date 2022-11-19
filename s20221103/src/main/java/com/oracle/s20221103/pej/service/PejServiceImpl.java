@@ -24,4 +24,18 @@ public class PejServiceImpl implements PejService {
 		return selMemberDogList;
 	}
 
+	@Override
+	public List<MemberDog> detailMemberDog(int id) {
+		System.out.println("PejServiceImpl detailMemberDog Start");
+		List<MemberDog> detailMemberDog = null;
+		detailMemberDog = pd.detailMemberDog(id);
+		return detailMemberDog;
+	
+	}
+
+
+		
+
+	
+
 }

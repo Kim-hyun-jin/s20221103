@@ -8,15 +8,15 @@
 <title>hotel reservation main</title>
 <link href="/css/hotel/reservation.css" rel="styleSheet" type="text/css">
 </head>
-<body>
+<body class="d-flex flex-column min-vh-100">
 	<h1>호텔 예약하기</h1>
 	<div id="container" class="container">
 		<div id="content" class="content">
-			<form action="">
-				<input type="radio" name="1">123
-				<input type="radio"name="1">123
-				<input type="radio"name="1">123
-					
+ 			<form action="/hotel/reservation/info">
+				<c:forEach var="room" items="${roomList }">
+				 <input type="radio" name="roomType" value="${room.roomType }">${room.roomType }
+				</c:forEach>
+				 <input type="submit" value="다음으로">
 			</form>
 		</div>
 	</div>

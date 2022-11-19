@@ -11,6 +11,7 @@
 integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
 
    <!---------------------- header 부분 --------------------------------------------------------------------------------------------->
+   <body class="d-flex flex-column min-vh-100">
     <header id="header">
         <nav class="navbar navbar-expand-lg navbar-light bg-light" >
           <div class="container-fluid">

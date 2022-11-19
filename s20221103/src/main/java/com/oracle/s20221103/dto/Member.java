@@ -4,7 +4,7 @@ import lombok.Data;
 
 @Data
 public class Member {
-	private String 	id;				// 회원번호
+	private int	 	id;				// 회원번호
 	private String 	username;		// 회원아이디
 	private String 	role;			// 권한
 	private String 	password;		// 비밀번호
