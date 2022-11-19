@@ -11,7 +11,21 @@ import org.springframework.web.bind.annotation.RequestParam;
 public class CusNoticeController {
 	
 
+	//조회
+	@GetMapping("/detail")
+	public String detail(@RequestParam(defaultValue = "1") int cusNo) {
+		
+		//공지글번호로 데이터 조회
+		
+		//조회객체 모델에 담아서 화면에 전달
+		
+		return "customerService/cusNotice/detail";
+	}
 	
+	
+	
+	
+	//글작성
 	@GetMapping("/write")
 	public String writeGet() {
 		
@@ -30,20 +44,15 @@ public class CusNoticeController {
 	}
 	
 	
-	@GetMapping("/detail")
-	public String detail(@RequestParam(defaultValue = "1") int cusNo) {
-		
-		//공지글번호로 데이터 조회
-		
-		//조회객체 모델에 담아서 화면에 전달
-		
-		return "customerService/cusNotice/detail";
-	}
+
 	
+	//수정
 	@GetMapping("/modify")
 	public String modify() {
 		
 		return "customerService/cusNotice/modify";
 	}
+	
+	//삭제
 	
 }

@@ -24,7 +24,7 @@
                 <th scope="col">#</th>
                 <th scope="col">제목</th>
                 <th scope="col">작성자</th>
-                <th scope="col">추천수</th>
+                
                 <th scope="col">조회수</th>
                 <th scope="col">작성일</th>
               </tr>
@@ -34,7 +34,7 @@
                 <th scope="row">1</th>
                 <td><a href="/customerService/cusNotice/detail"> Mark </a></td>
                 <td>Otto</td>
-                <td>@mdo</td>
+                
                 <td>@mdo</td>
                 <td>@mdo</td>
               </tr>
@@ -42,7 +42,7 @@
                 <th scope="row">2</th>
                 <td>Jacob</td>
                 <td>Thornton</td>
-                <td>@fat</td>
+                
                 <td>@fat</td>
                 <td>@fat</td>
               </tr>
@@ -50,7 +50,7 @@
                 <th scope="row">3</th>
                 <td>Larry</td>
                 <td>the Bird</td>
-                <td>@twitter</td>
+                
                 <td>@twitter</td>
                 <td>@twitter</td>
               </tr>
@@ -77,6 +77,7 @@
             </ul>
           </nav>
           
+         <!--  메인 첫 조회시 권한에 따라 보여줄지 말지 결정 -->
           <a  href="/customerService/cusNotice/write">
           <button type="button" class="btn btn-outline-secondary justify-content-end">공지등록</button>
           </a>
